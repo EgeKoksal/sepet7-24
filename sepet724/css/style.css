@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: lightblue;
+    margin: 1rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+a {
+    color: inherit;
+}
+
+div#tema-degistirme {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
+button#buton1 {
+    background-color: lightyellow;
+}
+button#buton2 {
+    background-color: lightgreen;
+}
+button#buton3 {
+    background-color: lightblue;
+}
+
+#yazi-boyutu {
+    position: fixed;
+    top: 4rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+}
